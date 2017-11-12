@@ -9,3 +9,14 @@ body {
     width: 100%;
     height: auto;
 }
+
+#bloco-logo {
+    width: 100%;
+    height: 588px;
+    background-color: #96b838;
+}
+
+.logo {
+    width: 100%;
+    margin: 240px 0;
+}
