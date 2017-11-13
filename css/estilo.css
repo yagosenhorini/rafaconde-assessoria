@@ -1,22 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    width: 100%;
-    height: auto;
-}
-
-#bloco-logo {
-    width: 100%;
-    height: 588px;
-    background-color: #96b838;
-}
-
-.logo {
-    width: 100%;
-    margin: 240px 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        height: auto;
+    }
+    
+    #inicio {
+        width: 100%;
+        height: 588px;
+        background-color: #96b838;
+    }
+    
+    .logo {
+        width: 100%;
+        margin: 115px 0;
+    }
+    
+    .imagem-sobre {
+        z-index: 1;
+        width: 200px;
+        height: 200px;
+        margin: 50px 60px;
+        box-shadow: -4px 4px;
+        position: relative;
+        display: block;
+    }
+    
+    .p__sobre {
+        width: 200px;
+        margin: 50px 60px;
+        text-align: justify;
+    }
+    
+    .video-assessoria {
+        width: 100%;
+        height: calc(537px /1.5);
+        background-image: url(../img/flores.png);
+    }
+    
+    .video {
+        margin: 50px 60px;
+    }
