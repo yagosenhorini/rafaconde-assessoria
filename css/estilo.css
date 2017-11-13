@@ -54,7 +54,9 @@
     }
     
     #titulo-servicos {
-        margin: 35px;
+        width: 320px;
+        margin: 35px 0;
+        padding: 5px;
         text-align: center;
     }
     
@@ -62,4 +64,56 @@
         width: 320px;
         padding: 5px;
         text-align: center;
+    }
+    
+    .saiba-mais {
+        width: 180px;
+        margin: 50px 70px;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid goldenrod;
+        display: block;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #depoimentos {
+        width: 320px;
+        height: calc(588px /1.5);
+        background: #f1f1f1;
+    }
+    
+    .titulo-depoimentos {
+        width: 200px;
+        margin: 0 60px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    
+    .contato {
+        width: 320px;
+        height: calc(588px / 2);
+        background: salmon;
+        position: absolute;
+    }
+    
+    .formulario {
+        top: 30px;
+        margin: 0 65px;
+        text-align: center;
+        position: relative;
+        display: inline;
+    }
+    
+    .envio {
+        display: inline;
+        border: none;
     }
