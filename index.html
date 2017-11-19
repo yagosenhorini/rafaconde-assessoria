@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <section id="inicio">
-        <header class="navbar">
+    <header id="inicio">
+        <nav class="navbar">
             <ul class="navegacao">
                 <li class="menu">Home</li>
                 <li class="menu">Sobre</li>
@@ -23,41 +23,50 @@
                 <li class="menu">Contato</li>
                 <li class="menu">Confirme Presença</li>
             </ul>
+        </nav>
+        <img src="img/logo.png" class="logo" alt="logo da assessoria">
+    </header>
+
+    <section class="sobre">
+        <header>
+            <h2 class="titulos">Sobre</h2>
         </header>
-        <figure id="logo-fundo">
-            <img src="img/logo.png" class="logo" alt="logo da assessoria">
-        </figure>
-    </section>
-    <section class="aba-sobre">
-        <article class="sobre">
-            <figure>
-                <img src="img/flores.png" class="imagem-sobre" alt="imagem demonstrativa">
-            </figure>
+        <article>
+            <img src="img/flores.png" class="imagem-sobre" alt="imagem demonstrativa">
             <p class="p__sobre">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi magnam impedit odio veritatis enim culpa doloremque explicabo neque modi repellat dicta, ratione minima aut. Suscipit ea dolor sed nulla?
             </p>
         </article>
     </section>
+
     <section class="video-assessoria">
-        <iframe class="video" width="260" height="230" src="https://www.youtube.com/embed/sVnfv3-SeuU" frameborder="0" allowfullscreen></iframe>
-    </section>
-    <section class="servicos">
         <header>
-            <h2 id="titulo-servicos">Serviços</h2>
+            <h2 class="titulos">Vídeo Institucional</h2>
+        </header>
+        <iframe class="video" width="260" height="230" src="https://www.youtube.com/embed/sVnfv3-SeuU" allowfullscreen></iframe>
+    </section>
+
+    <section class="servicos">
+
+        <header>
+            <h2 class="titulos">Serviços</h2>
         </header>
         <article class="tipos-assesoria">
+
             <div class="assessorias">
                 <h3 class="h3__tipos">Assessoria Completa</h3>
                 <p class="p__assessorias">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque ad eveniet repudiandae quaerat nostrum, consequuntur aspernatur repellat dolor, eos unde, ipsum obcaecati earum blanditiis omnis sunt alias ut maxime?
                 </p>
             </div>
+
             <div class="assessorias">
                 <h3 class="h3__tipos">Assessoria Simples</h3>
                 <p class="p__assessorias">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque ad eveniet repudiandae quaerat nostrum, consequuntur aspernatur repellat dolor, eos unde, ipsum obcaecati earum blanditiis omnis sunt alias ut maxime?
                 </p>
             </div>
+
             <div class="assessorias">
                 <h3 class="h3__tipos">Assessoria do dia</h3>
                 <p class="p__assessorias">
@@ -65,25 +74,35 @@
                 </p>
                 <span class="saiba-mais"><a href="#">Saiba Mais</a></span>
             </div>
+
         </article>
     </section>
-    <section id="depoimentos">
+
+    <section class="depoimentos">
+
         <header>
-            <h2 class="titulo-depoimentos">Depoimentos</h2>
+            <h2 class="titulos">Depoimentos</h2>
         </header>
         <figure>
             <!--Carrosel de imagens com depoimentos -->
         </figure>
+
     </section>
+
     <section class="contato">
+
+        <header>
+            <h2 class="titulos">Contato</h2>
+        </header>
         <form class="formulario">
             <input class="envio" type="email" name="email" id="email" placeholder="Insira seu email aqui">
-            <button class="envio" type="submit">Ok</button>
+            <button class="botao envio" type="submit">Ok</button>
         </form>
+        <p class="info-contato">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nisi maiores tempora enim quod eum voluptas minima ducimus, quos fuga soluta dicta aliquam possimus veritatis pariatur dolore officia reprehenderit. Dignissimos.
+        </p>
+
     </section>
-
-
-
 </body>
 
 </html>

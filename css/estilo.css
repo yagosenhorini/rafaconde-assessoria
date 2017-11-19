@@ -2,17 +2,18 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        outline: none;
     }
     
     html,
     body {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     
     #inicio {
         width: 100%;
-        height: 588px;
+        height: 100%;
         background-color: #96b838;
     }
     
@@ -23,17 +24,31 @@
     
     .imagem-sobre {
         z-index: 1;
-        width: 200px;
+        width: 70%;
         height: 200px;
-        margin: 50px 60px;
+        margin: 30px auto;
         box-shadow: -4px 4px;
         position: relative;
         display: block;
     }
     
+    .titulos {
+        width: 50%;
+        margin: 0 auto;
+        padding: 15px 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    
+    .sobre {
+        width: 100%;
+        height: calc(537/1.5);
+    }
+    
     .p__sobre {
-        width: 200px;
-        margin: 50px 60px;
+        width: 60%;
+        margin: 50px auto;
         text-align: justify;
     }
     
@@ -41,34 +56,33 @@
         width: 100%;
         height: calc(537px /1.5);
         background-image: url(../img/flores.png);
+        background-repeat: no-repeat;
     }
     
     .video {
-        margin: 60px 30px;
-    }
-    
-    .p__assessorias {
-        width: 200px;
-        margin: 30px 60px;
-        text-align: justify;
-    }
-    
-    #titulo-servicos {
-        width: 320px;
-        margin: 35px 0;
-        padding: 5px;
-        text-align: center;
+        width: 80%;
+        height: 50%;
+        margin: 10% auto;
+        border: none;
+        display: block;
     }
     
     .h3__tipos {
-        width: 320px;
+        width: 60%;
+        margin: auto;
         padding: 5px;
         text-align: center;
     }
     
+    .p__assessorias {
+        width: 65%;
+        margin: 30px auto;
+        text-align: justify;
+    }
+    
     .saiba-mais {
-        width: 180px;
-        margin: 50px 70px;
+        width: 65%;
+        margin: 50px auto;
         padding: 10px;
         text-align: center;
         border: 1px solid goldenrod;
@@ -85,35 +99,40 @@
         color: black;
     }
     
-    #depoimentos {
-        width: 320px;
+    .depoimentos {
+        width: 100%;
         height: calc(588px /1.5);
         background: #f1f1f1;
     }
     
-    .titulo-depoimentos {
-        width: 200px;
-        margin: 0 60px;
-        padding: 20px 10px;
-        text-align: center;
-    }
-    
     .contato {
-        width: 320px;
+        width: 100%;
         height: calc(588px / 2);
         background: salmon;
-        position: absolute;
     }
     
     .formulario {
         top: 30px;
-        margin: 0 65px;
+        margin: 0 auto;
+        padding: 15px;
         text-align: center;
-        position: relative;
-        display: inline;
     }
     
     .envio {
-        display: inline;
+        width: 50%;
+        height: 20px;
+        display: inline-block;
         border: none;
+    }
+    
+    .botao.envio {
+        width: 10%;
+        height: 20px;
+    }
+    
+    .info-contato {
+        width: 60%;
+        height: auto;
+        margin: auto;
+        text-align: justify;
     }
